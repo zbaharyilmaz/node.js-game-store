@@ -1,33 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: black;
   font-family: "Sixtyfour Convergence", sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden; 
+  overflow-y: auto; 
 }
-.card{
-  height:40vh
+.card {
+  height: 38vh;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
-.card-title, .card-body p {
-  letter-spacing: -0.5px; 
-  font-size: .9rem;
+.card-title,
+.card-body p {
+  letter-spacing: -0.5px;
+  font-size: 0.9rem;
 }
-.card:hover, 
-li:hover{
-    transform:scale(1.05);
-    transition:transform 0.5s ease-in-out;
-    box-shadow: 0px 0px 20px 5px rgb(229, 175, 175);
+.card:hover,
+li:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0px 0px 20px 5px rgb(229, 175, 175);
 }
-.indexbg{
-  background-image: url("https://img.freepik.com/free-vector/eye-catching-electronic-remote-controller-background-with-text-space_1017-54739.jpg?t=st=1743718657~exp=1743722257~hmac=a460540cef74b3ab6961f4d2d67189c272f81bdb2552809e01cbe2b74e5c48ec&w=2000");
+.indexbg {
+  background-image: url("/images/bg-image.JPG");
   background-size: cover;
-  height:100vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   font-family: "Sixtyfour Convergence", sans-serif;
+  background-attachment: fixed; 
 }
-@media (max-width:800px){
-  .indexbg{
-    background-size:cover;
-    background-position:60% center;
-    margin:0;
+.btn-back {
+  background-color: #444;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #333;
+}
+.card-body {
+  padding: 20px;
+}
+.btn-buy {
+  background-color: #ffbb33;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+  background-color: #e6a900;
+}
+
+.video-container {
+  margin-top: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.video-container iframe {
+  border: none;
+  border-radius: 15px;
+}
+@media (max-width: 800px) {
+  .indexbg {
+    background-size: cover;
+    background-position:center;
+  }
+}
+@media (max-width: 480px) {
+  .indexbg {
+    background-size: contain;
+    background-position:center;
   }
 }

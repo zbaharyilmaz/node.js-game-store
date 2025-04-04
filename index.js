@@ -58,7 +58,7 @@ app.get("/games/:sid", function (req, res) {
 
 app.get("/games", function (req, res) {
   const page = parseInt(req.query.page) || 1;
-  const limit = 32;
+  const limit = 15;
   const startIndex = (page - 1) * limit;
   const endIndex = page * limit;
   const paginatedData = data.slice(startIndex, endIndex);

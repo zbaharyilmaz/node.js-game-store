@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Paid Games</title>
-</head>
-<body>
-    <h2>Paid Games</h2>
-    <% freeGames.forEach(game => { %>
-        <p><%= game.name %></p>
-    <% }) %>
-</body>
+  </head>
+
+  <body>
+    <a href="javascript:history.back()" class="btn btn-light m-3 btn-back">
+        <i class="bi bi-arrow-left-circle"></i> Back
+    </a>
+    <div class="container-fluid p-5">
+      <div class="row g-5">
+        <% paidGames.forEach(e=> { %>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card bg-light">
+            <a
+              class="text-decoration-none text-hover-warning"
+              href="/games/<%= e.sid %>"
+            >
+              <img
+                class="card-img-top img-fluid rounded-top"
+                src="<%= e.image %>"
+                alt="Game Image"
+              />
+            </a>
+            <div class="card-body text-center">
+              <h5 class="card-title"><%= e.name %></h5>
+              <p class="text-success fw-bold"><%= (e.full_price * 0.7).toFixed(2) %> TL</p>
+            </div>
+          </div>
+        </div>
+        <% }) %>
+      </div>
+    </div>
+  </body>
 </html>

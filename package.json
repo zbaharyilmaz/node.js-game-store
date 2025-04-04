@@ -4,14 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js" 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.5",
     "ejs": "^3.1.10",
-    "express": "^5.1.0"
-  }
+    "express": "^5.1.0",
+    "init": "^0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbaharyilmaz/node.js-game-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zbaharyilmaz/node.js-game-store/issues"
+  },
+  "homepage": "https://github.com/zbaharyilmaz/node.js-game-store#readme"
 }
