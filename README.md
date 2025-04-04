@@ -1,1 +1,2 @@
-# node.js-gallery
+# node.js-game-store
+

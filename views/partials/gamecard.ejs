@@ -1,0 +1,12 @@
+<div class="card-body text-center">
+    <h5 class="card-title text-sm"><%= e.name %></h5>
+  
+    <% if (e.full_price === 0) { %>
+      <p class="text-success fw-bold">Free</p>
+    <% } else { %>
+      <p class="text-decoration-line-through text-danger"><%= e.full_price %> TL</p>
+      <p class="text-success fw-bold"><%= (e.full_price * 0.7).toFixed(2) %> TL</p>
+    <% } %>
+    
+  </div>
+  

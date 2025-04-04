@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Game List</title>
+</head>
+
+<body>
+  <div class="text-center fw-bolder py-5 fs-1 text-uppercase">
+    <a href="/games/freegames" class="btn">Free Games</a>
+    <a href="/games/paidgames" class="btn">Paid Games</a>
+  </div>
+  <div class="container-fluid p-5">
+    <div class="row g-5">
+
+      <% list.forEach(e=> { %>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card bg-light">
+            <a class="text-decoration-none text-hover-warning" href="/games/<%= e.sid %>"> <img
+                class="card-img-top img-fluid rounded-top" src="<%= e.image %>" alt="Game Image"> </a>
+            <%- include("partials/gamecard.ejs", { e:e }) %>
+
+          </div>
+        </div>
+        <% }) %>
+    </div>
+  </div>
+  <nav class="d-flex justify-content-center my-3 w-100">
+    <div class="">
+      <ul class="pagination w-25 p-2">
+        <% if (currentPage> 1) { %>
+          <li class="page-item">
+            <a class="page-link" href="/games?page=<%= currentPage - 1 %>" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <% } %>
+
+
+            <% if (currentPage < totalPages) { %>
+              <li class="page-item">
+                <a class="page-link" href="/games?page=<%= currentPage + 1 %>" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+              <% } %>
+      </ul>
+    </div>
+  </nav>
+  </div>
+</body>
+
+</html>

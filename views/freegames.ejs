@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Free Games</title>
+</head>
+<body>
+    <h2>Free Games</h2>
+<% freeGames.forEach(e => { %>
+    <div class="card-body text-center">
+        <h5 class="card-title text-truncate">
+         <%= e.name %> 
+        </h5>
+
+        <p class="fw-bold">
+            <span class="text-decoration-line-through text-danger">
+                <%= e.full_price %>TL
+            </span>
+            <br>
+            <span class="text-success">
+                <%= e.full_price * 70 / 100 %>TL
+            </span>
+        </p>
+    </div>
+<% }) %>
+</body>
+</html>

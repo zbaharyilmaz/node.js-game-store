@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Paid Games</title>
+</head>
+<body>
+    <h2>Paid Games</h2>
+    <% freeGames.forEach(game => { %>
+        <p><%= game.name %></p>
+    <% }) %>
+</body>
+</html>

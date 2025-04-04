@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+body {
+  background-color: black;
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+.card{
+  height:40vh
+}
+.card-title, .card-body p {
+  letter-spacing: -0.5px; 
+  font-size: .9rem;
+}
+.card:hover, 
+li:hover{
+    transform:scale(1.05);
+    transition:transform 0.5s ease-in-out;
+    box-shadow: 0px 0px 20px 5px rgb(229, 175, 175);
+}
+.indexbg{
+  background-image: url("https://img.freepik.com/free-vector/eye-catching-electronic-remote-controller-background-with-text-space_1017-54739.jpg?t=st=1743718657~exp=1743722257~hmac=a460540cef74b3ab6961f4d2d67189c272f81bdb2552809e01cbe2b74e5c48ec&w=2000");
+  background-size: cover;
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+@media (max-width:800px){
+  .indexbg{
+    background-size:cover;
+    background-position:60% center;
+    margin:0;
+  }
+}
