@@ -6,12 +6,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html, body {
   background-color: black;
   font-family: "Sixtyfour Convergence", sans-serif;
   min-height: 100vh;
-  overflow-x: hidden; 
-  overflow-y: auto; 
+  overflow: hidden;
+  overflow: hidden; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .card {
   height: 38vh;
