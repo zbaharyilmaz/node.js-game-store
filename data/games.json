@@ -1,0 +1,335 @@
+[
+  {
+    "sid": 440,
+    "store_url": "https://store.steampowered.com/app/440",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/440/header.jpg",
+    "name": "Team Fortress 2",
+    "gfq_rating": 4.3,
+    "full_price": 348
+  },
+  {
+    "sid": 730,
+    "store_url": "https://store.steampowered.com/app/730",
+    "store_promo_url": "https://www.youtube.com/watch?v=edYCtaNueQY",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/730/header.jpg",
+    "name": "Counter-Strike: Global Offensive",
+    "gfq_rating": 3.77,
+    "full_price": 0
+  },
+  {
+    "sid": 1002,
+    "store_url": "https://store.steampowered.com/app/1002",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/1002/header.jpg",
+    "name": "Rag Doll Kung Fu",
+    "gfq_rating": 3.06,
+    "full_price": 999
+  },
+  {
+    "sid": 1200,
+    "store_url": "https://store.steampowered.com/app/1200",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/1200/header.jpg",
+    "name": "Red Orchestra: Ostfront 41-45",
+    "gfq_rating": 3.65,
+    "full_price": 499
+  },
+  {
+    "sid": 375290,
+    "store_url": "https://store.steampowered.com/app/375290",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/375290/header.jpg",
+    "name": "Superstatic",
+    "gfq_rating": 3.75,
+    "full_price": 499
+  },
+  {
+    "sid": 375310,
+    "store_url": "https://store.steampowered.com/app/375310",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/375310/header.jpg",
+    "name": "Mighty Switch Force! Hose It Down!",
+    "gfq_rating": 3.45,
+    "full_price": 299
+  },
+  {
+    "sid": 375320,
+    "store_url": "https://store.steampowered.com/app/375320",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/375320/header.jpg",
+    "name": "Colortone",
+    "gfq_rating": 5.0,
+    "full_price": 399
+  },
+  {
+    "sid": 375330,
+    "store_url": "https://store.steampowered.com/app/375330",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/375330/header.jpg",
+    "name": "Butsbal",
+    "gfq_rating": 1,
+    "full_price": 299
+  },
+  {
+    "sid": 375420,
+    "store_url": "https://store.steampowered.com/app/375420",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/375420/header.jpg",
+    "name": "The Architect",
+    "gfq_rating": 3.7,
+    "full_price": 0
+  },
+  {
+    "sid": 376300,
+    "store_url": "https://store.steampowered.com/app/376300",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/376300/header.jpg",
+    "name": "GUILTY GEAR Xrd -SIGN-",
+    "gfq_rating": 4.29,
+    "full_price": 2999
+  },
+  {
+    "sid": 1335880,
+    "store_url": "https://store.steampowered.com/app/1335880",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/1335880/header.jpg",
+    "name": "Duo Defenders - Tower Defense",
+    "gfq_rating": 3.9,
+    "full_price": 299
+  },
+  {
+    "sid": 1335890,
+    "store_url": "https://store.steampowered.com/app/1335890",
+    "store_promo_url": "https://www.youtube.com/watch?v=9per-UygEJ0",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/1335890/header.jpg",
+    "name": "Fractured Voyage",
+    "gfq_rating": 2.4,
+    "full_price": 99
+  },
+  {
+    "sid": 1335910,
+    "store_url": "https://store.steampowered.com/app/1335910",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/1335910/header.jpg",
+    "name": "Droid Guier",
+    "gfq_rating": 3.3,
+    "full_price": 299
+  },
+  {
+    "sid": 1335970,
+    "store_url": "https://store.steampowered.com/app/1335970",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/1335970/header.jpg",
+    "name": "Greedy Maze",
+    "gfq_rating": 3.2,
+    "full_price": 299
+  },
+  {
+    "sid": 1336020,
+    "store_url": "https://store.steampowered.com/app/1336020",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/1336020/header.jpg",
+    "name": "Mayor of Defense",
+    "gfq_rating": 1.5,
+    "full_price": 499
+  },
+  {
+    "sid": 1469550,
+    "store_url": "https://store.steampowered.com/app/1469550",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1469550/header.jpg",
+    "name": "Plokoth",
+    "gfq_rating": 2.5,
+    "full_price": 0
+  },
+  {
+    "sid": 1469690,
+    "store_url": "https://store.steampowered.com/app/1469690",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1469690/header.jpg",
+    "name": "Drift King",
+    "gfq_rating": 4.5,
+    "full_price": 0
+  },
+  {
+    "sid": 1469960,
+    "store_url": "https://store.steampowered.com/app/1469960",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1469960/header.jpg",
+    "name": "Explosive Candy World",
+    "gfq_rating": 5.0,
+    "full_price": 399
+  },
+  {
+    "sid": 1336040,
+    "store_url": "https://store.steampowered.com/app/1336040",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://steamcdn-a.akamaihd.net/steam/apps/1336040/header.jpg",
+    "name": "Easter Pairs",
+    "gfq_rating": 4.5,
+    "full_price": 199
+  },
+  {
+    "sid": 1465330,
+    "store_url": "https://store.steampowered.com/app/1465330",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1465330/header.jpg",
+    "name": "Bird Pro Skater",
+    "gfq_rating": 2.3,
+    "full_price": 99
+  },
+  {
+    "sid": 1465360,
+    "store_url": "https://store.steampowered.com/app/1465360",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1465360/header.jpg",
+    "name": "SnowRunner",
+    "gfq_rating": 4.3,
+    "full_price": 2999
+  },
+  {
+    "sid": 1465370,
+    "store_url": "https://store.steampowered.com/app/1465370",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1465370/header.jpg",
+    "name": "Detective notes. Lighthouse Mystery Solitaire",
+    "gfq_rating": 2.3,
+    "full_price": 699
+  },
+  {
+    "sid": 1465450,
+    "store_url": "https://store.steampowered.com/app/1465450",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1465450/header.jpg",
+    "name": "Jetpack City Action VR",
+    "gfq_rating": 4.6,
+    "full_price": 199
+  },
+  {
+    "sid": 1466970,
+    "store_url": "https://store.steampowered.com/app/1466970",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1466970/header.jpg",
+    "name": "Elementowers",
+    "gfq_rating": 2.5,
+    "full_price": 1299
+  },
+  {
+    "sid": 1467070,
+    "store_url": "https://store.steampowered.com/app/1467070",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1467070/header.jpg",
+    "name": "Time Trap 2 - Search and Find Objects Game - Hidden Pictures",
+    "gfq_rating": 3.4,
+    "full_price": 499
+  },
+  {
+    "sid": 1467190,
+    "store_url": "https://store.steampowered.com/app/1467190",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1467190/header.jpg",
+    "name": "Plushie Dungeon",
+    "gfq_rating": 2.4,
+    "full_price": 99
+  },
+  {
+    "sid": 1467330,
+    "store_url": "https://store.steampowered.com/app/1467330",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1467330/header.jpg",
+    "name": "Endline",
+    "gfq_rating": 2.3,
+    "full_price": 499
+  },
+  {
+    "sid": 1467340,
+    "store_url": "https://store.steampowered.com/app/1467340",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1467340/header.jpg",
+    "name": "Quintaesencia",
+    "gfq_rating": 2.3,
+    "full_price": 499
+  },
+  {
+    "sid": 1467410,
+    "store_url": "https://store.steampowered.com/app/1467410",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1467410/header.jpg",
+    "name": "Isekai Eternal Alpha",
+    "gfq_rating": 4.7,
+    "full_price": 0
+  },
+  {
+    "sid": 1782620,
+    "store_url": "https://store.steampowered.com/app/1782620",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1782620/header.jpg",
+    "name": "Gachi Dash",
+    "gfq_rating": 4.4,
+    "full_price": 0
+  },
+  {
+    "sid": 1782640,
+    "store_url": "https://store.steampowered.com/app/1782640",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1782640/header.jpg",
+    "name": "FireAirPlan",
+    "gfq_rating": 4.5,
+    "full_price": 99
+  },
+  {
+    "sid": 1782710,
+    "store_url": "https://store.steampowered.com/app/1782710",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1782710/header.jpg",
+    "name": "Haley's story",
+    "gfq_rating": 5.6,
+    "full_price": 1099
+  },
+  {
+    "sid": 1782940,
+    "store_url": "https://store.steampowered.com/app/1782940",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1782940/header.jpg",
+    "name": "Cyndefense 2",
+    "gfq_rating": 2.5,
+    "full_price": 0
+  },
+  {
+    "sid": 1782960,
+    "store_url": "https://store.steampowered.com/app/1782960",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1782960/header.jpg",
+    "name": "Laboratory of Nightmares",
+    "gfq_rating": 1.2,
+    "full_price": 599
+  },
+  {
+    "sid": 1783000,
+    "store_url": "https://store.steampowered.com/app/1783000",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1783000/header.jpg",
+    "name": "Diner Runners",
+    "gfq_rating": 2.3,
+    "full_price": 199
+  },
+  {
+    "sid": 1783060,
+    "store_url": "https://store.steampowered.com/app/1783060",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1783060/header.jpg",
+    "name": "Chimeras: Mortal Medicine Collector's Edition",
+    "gfq_rating": 2.5,
+    "full_price": 999
+  },
+  {
+    "sid": 1783090,
+    "store_url": "https://store.steampowered.com/app/1783090",
+    "store_promo_url": "https://www.youtube.com/watch?v=C4cfo0f88Ug",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1783090/header.jpg",
+    "name": "Marmoset",
+    "gfq_rating": 4.5,
+    "full_price": 99
+  }
+]

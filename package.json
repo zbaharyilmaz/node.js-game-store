@@ -14,13 +14,5 @@
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "init": "^0.1.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zbaharyilmaz/node.js-game-store.git"
-  },
-  "bugs": {
-    "url": "https://github.com/zbaharyilmaz/node.js-game-store/issues"
-  },
-  "homepage": "https://github.com/zbaharyilmaz/node.js-game-store#readme"
+  }
 }

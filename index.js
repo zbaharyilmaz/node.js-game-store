@@ -50,7 +50,6 @@ app.get("/games/:sid", function (req, res) {
 
   if (!game) {
     return res.status(404).send("Game not found");
-    döndür;
   }
 
   res.render("game-details", { game });
