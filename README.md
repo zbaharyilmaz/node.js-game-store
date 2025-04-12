@@ -4,11 +4,11 @@
 Game Grid which is built with Express.js, EJS, and Bootstrap offers a smooth and responsive experience for all gamers.
 Browse a wide catalog of both free and paid games, separated into dedicated sections for easy discovery. Fast, clean, and full of fun — your next favorite game is just a click away.
 
-👉 **Live Demo:** []
+👉 **Live Demo:** [https://octopus-app-ngmn7.ondigitalocean.app/]
 
 ### Demo
 
-![Project Demo]()
+![Project Demo](/public/images/game-grid.gif)
 
 ### Features
 
