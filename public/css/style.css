@@ -9,7 +9,7 @@
 html, body {
   background-color: black;
   font-family: "Sixtyfour Convergence", sans-serif;
-  min-height: 100vh;
+
   overflow-x: hidden;
   width: 100%;
 }
@@ -33,11 +33,12 @@ li:hover {
 .indexbg {
   background-image: url("/images/bg-image.JPG");
   background-size: cover;
-  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   font-family: "Sixtyfour Convergence", sans-serif;
-  background-attachment: fixed; 
+  height: 100vh;
+  width: 100%;
 }
 .btn-back {
   background-color: #444;
@@ -86,5 +87,20 @@ li:hover {
   .indexbg {
     background-size: contain;
     background-position:center;
+  }
+}
+@media (max-width: 480px) {
+  .indexbg {
+    background-image: none;
+    background-color: black;
+    text-align: center; 
+  }
+  .indexbg h1, h2 {
+    font-size: 0. 9rem;
+    margin-bottom: 10px;
+  }
+  .indexbg .btn {
+    font-size: 0.7rem;
+    padding: 8px 16px;
   }
 }
