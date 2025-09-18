@@ -6,7 +6,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   background-color: black;
   font-family: "Sixtyfour Convergence", sans-serif;
 
@@ -30,12 +31,23 @@ li:hover {
   transition: transform 0.5s ease-in-out;
   box-shadow: 0px 0px 20px 5px rgb(229, 175, 175);
 }
+
+/* Make entire card clickable */
+a .card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+a .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px 5px rgb(229, 175, 175);
+}
 .indexbg {
   background-image: url("/images/bg-image.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   font-family: "Sixtyfour Convergence", sans-serif;
   height: 100vh;
   width: 100%;
@@ -80,23 +92,19 @@ li:hover {
 @media (max-width: 800px) {
   .indexbg {
     background-size: cover;
-    background-position:center;
+    background-position: center;
   }
 }
-@media (max-width: 480px) {
-  .indexbg {
-    background-size: contain;
-    background-position:center;
-  }
-}
+
 @media (max-width: 480px) {
   .indexbg {
     background-image: none;
     background-color: black;
-    text-align: center; 
+    text-align: center;
   }
-  .indexbg h1, h2 {
-    font-size: 0. 9rem;
+  .indexbg h1,
+  h2 {
+    font-size: 0.9rem;
     margin-bottom: 10px;
   }
   .indexbg .btn {

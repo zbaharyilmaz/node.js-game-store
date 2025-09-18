@@ -1,18 +1,29 @@
 {
   "name": "node.js-game-store",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A modern game store built with Node.js and Express",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js" 
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo \"Build completed - static files ready\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "games",
+    "store",
+    "nodejs",
+    "express",
+    "ejs"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.5",
     "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "init": "^0.1.2"
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
